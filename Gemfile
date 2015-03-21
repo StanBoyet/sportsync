@@ -23,7 +23,9 @@ gem "title"
 gem "uglifier"
 gem "unicorn"
 
-group :development do
+gem 'slim'
+
+    group :development do
   gem "spring"
   gem "spring-commands-rspec"
 end
